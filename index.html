@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman-Bake Off</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="masthead">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Hangman - Bake Off </h1>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3> Mistakes </h3>
+            </div>
+            <div class="col-sm-6">
+                <h3>Kitchen</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>Instructions</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="textBox" id="guesses">
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="textBox">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="assets/images/pies.jpg" id="pieImg">
+                        </div>
+                        <div class="col-sm-8">
+                            <div id="letterSpaces"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5>Words Baked Properly</h5>
+                            <div id="numCorrect"></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5>Burned Words</h5>
+                            <div id="numWrong"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="textBox">
+                    <p>When baking you can only make a limited number of mistakes before you ruin your dish. Same is true here, you are only allowed 4 mistakes before you burn your word.</p>
+                    <p>To play simply choose any letter to begin guessing word hidden on the left. Once you bake properly or burn your word a new one will appear.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                Copyright &copy; 2017 Alina Schloesser
+            </div>
+        </footer>
+        <script type="text/javascript" src="assets/javascript/jquery.js"></script>
+</body>
+
+</html>
